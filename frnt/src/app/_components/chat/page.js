@@ -6,7 +6,7 @@ import { v4 as uuidv4 } from "uuid";
 
 const ChatRoom = ({ roomId }) => {
     //   const socket = useMemo(() => io("https://lovetunes-2.onrender.com"), []);
-    const socket = useMemo(() => io("http://localhost:3001"), []);
+    const socket = useMemo(() => io("https://crypto-and-blockchain.onrender.com"), []);
     const [message, setMessage] = useState("");
     const [chat, setChat] = useState([]);
     const [userId, setUserId] = useState("");
