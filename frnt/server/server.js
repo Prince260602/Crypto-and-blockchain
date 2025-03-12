@@ -1,6 +1,6 @@
 const io = require("socket.io")(process.env.PORT || 3001, {
     cors: {
-      origin: "http://localhost:3000",
+      origin: "https://crypto-and-blockchain.vercel.app",
       // origin: "https://love-tunes-brown.vercel.app",
     },
   });
